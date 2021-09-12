@@ -1,0 +1,130 @@
+/*---------------------FOND-------------------------*/
+body{border:solid; /*A Supprimer*/
+    height: 1800px;
+    width:100%;
+    color:blanchedalmond;
+    background-color: #141A1E ;
+}
+.body-popup{
+    background-color: #d1d1d1 ;
+}
+
+/*---------------------TEXTE------------------------*/
+/*TITRE*/
+header{border:solid; /*A Supprimer*/
+    width: 100%;
+    margin:0 auto 0 auto 0;
+}
+main{
+    width: 100%;
+    margin:0 auto 0 auto 0;
+}
+
+.title{
+    border:solid; /*A Supprimer*/
+    width: 100%;
+    text-align: center;
+    font-family: "road rage";
+    color: rgba(255, 166, 0, 0.884);
+    font-size: 50px;
+}
+
+.subtitle{
+    border:solid; /*A Supprimer*/
+    width: 100%;
+    text-align: center;
+    font-family: "kanit";
+    color:white;
+}
+/*REGLES*/
+.rules{
+    border:solid; /*A Supprimer*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    font-family: "kanit";
+    color:white;
+}
+/*PAGE PARTIE*/
+.default-text{
+    border:solid; /*A Supprimer*/
+    width: 100%;
+    text-align: center;
+    font-family: "kanit";
+    color:white;
+    margin: 0 25px 0 25px;
+}
+
+.display-score{
+    border:solid; /*A Supprimer*/
+    width: 100%;
+    text-align: center;
+    font-family: "kanit";
+    color:white;
+    font-style:italic;
+    font-size: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/*LIEN*/
+.link{
+    border:solid; /*A Supprimer*/
+    text-decoration: none;
+}
+
+/*---------------------BUTTON----------------------*/
+.default-button{
+    border:solid; /*A Supprimer*/
+    text-align: center;
+}
+
+/*----------------------DIV-----------------------*/
+.default-div{
+    border:solid; /*A Supprimer*/
+    text-align: center;
+    width: 100%;
+    margin:60px auto 30px auto;
+}
+
+.display-score-div{
+    border:solid; /*A Supprimer*/
+    width: 100%;
+    text-align: center;
+    margin:60px auto 50px auto;
+}
+
+/*---------------------Image---------------------*/
+.home-image{
+    border:solid; /*A Supprimer*/
+    display: block;
+    height:300px;
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+/*-----------------------INPUT-------------------*/
+.input-bag{
+    border:solid; /*A Supprimer*/
+    height: 140px;
+    width: 140px;
+    text-align: center;
+    font-size:80px;
+    margin : 5px;
+}
+
+::placeholder{
+    border:solid; /*A Supprimer*/
+    font-size: 24px;
+}
+
+/*----------------------FOOTER-----------------*/
+footer{
+    border:solid; /*A Supprimer*/
+    text-align: center;
+    width: 100%;
+    margin:0 0 0 0;
+}
