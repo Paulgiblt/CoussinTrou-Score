@@ -132,13 +132,13 @@ main{
 /*LIEN*/
 .link{
     text-decoration: none;
-    font-size: 60px;
+    font-size: 45px;
     color:Black ;
 }
 
 .link-selected{
     text-decoration: none;
-    font-size: 60px;
+    font-size: 45px;
     color:white ;
 }
 
