@@ -143,7 +143,7 @@ main{
 /*---------------------BUTTON----------------------*/
 .default-button{
     text-align: center;
-    height: 120px;
+    height: 300px;
     width: 300px;
     font-size: 30px;
     border-radius: 10px;
@@ -152,7 +152,7 @@ main{
 
 .default-button-selected{
     text-align: center;
-    height: 120px;
+    height: 300px;
     width: 300px;
     font-size: 30px;
     border-radius: 10px;
