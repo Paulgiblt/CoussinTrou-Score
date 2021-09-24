@@ -46,8 +46,8 @@ h1,h2,h3{
 }
 
 .navButton{
-    height: 100px;
-    width: 150px;
+    height: 90px;
+    width: 120px;
     background-color: rgba(255, 166, 0, 0.884);
     margin: auto;
     border-radius: 37px;
