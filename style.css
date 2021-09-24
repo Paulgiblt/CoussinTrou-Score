@@ -1,0 +1,183 @@
+/*---------------------FONT-------------------------*/
+@font-face {
+    font-family: kanit;
+    src: url("https://raw.githubusercontent.com/Paulgiblt/CoussinTrou-Score/main/Fonts/kanit.ttf");
+}
+
+@font-face {
+    font-family: road rage;
+    src: url("https://raw.githubusercontent.com/Paulgiblt/CoussinTrou-Score/main/Fonts/road_rage.otf");
+}
+
+body{
+    font-family: "kanit";
+    height: 100vh;
+    width: 100vw;
+    background-color: #141A1E ;
+}
+
+header{
+    height: 25vh;
+    color : white;
+}
+
+main{
+    height: 65vh;
+}
+
+footer{
+    text-align: center;
+    margin:0 auto;
+    height: 10vh;
+    color: white;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+.Home-Image{
+    height: 100%;
+    width: 100%;
+}
+
+.home-content{
+    height: 100%;
+}
+
+.navButton{
+    height: 100px;
+    width: 150px;
+    background-color: rgba(255, 166, 0, 0.884);
+    margin: auto;
+    border-radius: 37px;
+    transition: ease 1s;
+}
+
+.navButton:hover{
+    background-color: rgba(255, 209, 123, 0.884);
+}
+
+.rules-content{
+    position: absolute;
+    top: 25vh;
+}
+
+.game-content{
+    text-align: center;
+    width: 100vw;
+    margin:0 auto 0 auto;
+    position: absolute;
+    top: 25vh;
+}
+
+.rules{
+    overflow-y: scroll;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    height: 65vh;
+    text-align: center;
+    font-family: "kanit";
+    color:white;
+}
+
+.Site-Title{
+    font-family: "road rage";
+    color: rgba(255, 166, 0, 0.884);
+}
+
+.Page-Title,.SubTitle{
+    font-family: "kanit";
+    color: white;
+}
+
+.icon{
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;}
+
+a{
+    font-family: "kanit";
+    font-size: larger;
+}
+
+.defaultText{
+    text-align: center;
+    font-family: "kanit";
+    font-size: larger;
+    color: white;
+    margin:20px;
+}
+
+.scoreText{
+    font-family: "road rage";
+    color:rgba(255, 166, 0, 0.884);
+    font-style:italic;
+    font-size: 40px;
+}
+
+.roundButton{
+    position : relative;
+    top : 50px;
+    height: 130px;
+    width: 130px;
+    background-color: white;
+    margin: auto;
+    border-radius: 75px;
+    /*transition: ease 1s;*/
+}
+
+.roundButton:hover{
+    background-color: rgba(255, 255, 255, 0.658);
+}
+
+.roundBtnText{
+    position:relative;
+    top : -10px;
+    text-align: center;
+    font-family: "kanit";
+    font-size: larger;
+    color: black;
+    margin-bottom:10px;
+}
+
+.windowPopup{
+    position:absolute;
+    top:10vh;
+    left:10vh;
+    width: 80vw;
+    height: 80vh;
+    background-color: white;
+}
+
+.imagePopup{
+    position: absolute;
+    top:10vh;
+    left: 5vh;
+    z-index:0;
+    height: 50vh;
+    width: 50vw;
+}
+
+.icon-arrow-hole{
+    position:relative;
+    top:255px;
+    left:320px;
+    height: 5vh;
+    width: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-arrow-wood{
+    position:relative;
+    top: 450px;
+    left:270px;
+    height: 5vh;
+    width: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+}
