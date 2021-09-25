@@ -86,8 +86,8 @@ btnNewScoring.addEventListener('click', () => {
 
 //Gestion Bouton PopUp Valid
 btnValidPopUp.addEventListener('click', () => {
-    onClickValid();
     popUpContent.style.visibility="hidden";
+    onClickValid();
 });
 
 //Gestion Bouton PopUp Close
